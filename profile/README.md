@@ -13,27 +13,19 @@ El IAE se calcula a partir de un modelo de redes neuronales que identifica patro
 	•	✨ Luminosidad nocturna satelital (VIIRS)
 	•	🌫 Contaminación del aire
 	•	🚇 Movilidad urbana (torniquetes de transporte público)
-	•	💡 Consumo de energía eléctrica
-	•	🏭 Localización de empresas por CIIU
 	•	👥 Densidad poblacional
-	•	📦 Datos de actividad económica oficial (PIB trimestral por localidad)
+	•	📦 Datos de actividad económica oficial (PIB trimestral)
 
 Proceso general:
 
-	1.	Fase 1 – Preparación y limpieza de bases de datos 
-	    
-	    Recolección, depuración, normalización y transformación de todas las fuentes de datos.
-
-	2.	Fase 2 – Calibración del modelo
-
-      Entrenamiento de redes neuronales, ajuste de hiperparámetros, validación cruzada y evaluación de métricas de predicción.
-	
-	3.	Fase 3 – Visualización geoespacial
+Fase 1 – Preparación y limpieza de bases de datos
+Fase 2 – Calibración del modelo
+Fase 3 – Visualización geoespacial
   
   Integración de los resultados en un diseminador cartográfico para exploración pública, acompañado de una guía técnica para su interpretación.
 
 🗂 Estructura del repositorio principal
-
+```
 ├── 01_night_lights/              # Procesamiento de imágenes VIIRS
 ├── 02_mgn_dane/                  # Geometrías y datos del Marco Geoestadístico Nacional
 ├── 03_gdp_colombia/              # PIB trimestral por localidad
@@ -42,6 +34,7 @@ Proceso general:
 ├── 06_model/                     # Entrenamiento y calibración del modelo neuronal
 ├── 07_visualization/             # Visualización y despliegue del IAE
 └── README.md                     # Este archivo
+```
 
 📦 Dependencias
 

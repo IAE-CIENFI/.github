@@ -15,6 +15,7 @@ El IAE se calcula a partir de un modelo de redes neuronales que identifica patro
 	•	🚇 Movilidad urbana (torniquetes de transporte público)
 	•	👥 Densidad poblacional
 	•	📦 Datos de actividad económica oficial (PIB trimestral)
+ 	•	📦 Datos de Contaminación por Particula PM2.5 (ACAG y OpenAQ)
 
 Proceso general:
 
@@ -28,11 +29,12 @@ Fase 3 – Visualización geoespacial
 ```
 ├── 01_night_lights/              # Procesamiento de imágenes VIIRS
 ├── 02_mgn_dane/                  # Geometrías y datos del Marco Geoestadístico Nacional
-├── 03_gdp_colombia/              # PIB trimestral por localidad
-├── 04_transporte/                # Datos de torniquetes del sistema de transporte
-├── 05_nb_boundary/               # Fronteras y delimitaciones oficiales de barrios
-├── 06_model/                     # Entrenamiento y calibración del modelo neuronal
-├── 07_visualization/             # Visualización y despliegue del IAE
+├── 03_gdp_cali/                  # PIB trimestral para la ciudad de Cali
+├── 04_transport /                # Datos de torniquetes del sistema de transporte integrado de Cali
+├── 05_pollution  /               # Procesamiento de datos satelitales de PM2.5 tomados de ACAG y OpenAQ
+├── 06_join_db/                   # Procesamiento y unión de datos obtenidos en tareas previas
+├── 07_models/                     # Entrenamiento y calibración del modelo neuronal
+├── 08_visualizations/             # Visualización y despliegue del IAE
 └── README.md                     # Este archivo
 ```
 

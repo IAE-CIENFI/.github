@@ -30,10 +30,10 @@ Fase 3 – Visualización geoespacial
 ├── 02_mgn_dane/                  # Geometrías y datos del Marco Geoestadístico Nacional
 ├── 03_gdp_cali/                  # PIB trimestral para la ciudad de Cali
 ├── 04_transport /                # Datos de torniquetes del sistema de transporte integrado de Cali
-├── 05_pollution  /               # Procesamiento de datos satelitales de PM2.5 tomados de ACAG y OpenAQ
+├── 05_pollution/                 # Procesamiento de datos satelitales de PM2.5 tomados de ACAG y OpenAQ
 ├── 06_join_db/                   # Procesamiento y unión de datos obtenidos en tareas previas
-├── 07_models/                     # Entrenamiento y calibración del modelo neuronal
-├── 08_visualizations/             # Visualización y despliegue del IAE
+├── 07_models/                    # Entrenamiento y calibración del modelo neuronal
+├── 08_visualizations/            # Visualización y despliegue del IAE
 └── README.md                     # Este archivo
 ```
 

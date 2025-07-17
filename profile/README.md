@@ -15,7 +15,6 @@ El IAE se calcula a partir de un modelo de redes neuronales que identifica patro
 	•	🚇 Movilidad urbana (torniquetes de transporte público)
 	•	👥 Densidad poblacional
 	•	📦 Datos de actividad económica oficial (PIB trimestral)
- 	•	📦 Datos de Contaminación por Particula PM2.5 (ACAG y OpenAQ)
 
 Proceso general:
 

@@ -32,7 +32,8 @@ Fase 3 – Visualización geoespacial
 ├── 05_nb_boundary/               # Geometrías de comunas y barrios de Cali
 ├── 06_join_db/                   # Procesamiento y unión de datos obtenidos en tareas previas
 ├── 07_models/                    # Entrenamiento y calibración del modelo neuronal
-├── 08_visualizations/            # Visualización y despliegue del IAE
+├── 08_iae_cienfi/                # Indicador de actividad económica para cada comuna/barrio de la ciudad de Cali
+├── 09_visualizations/            # Visualización y despliegue del IAE
 └── README.md                     # Este archivo
 ```
 
